@@ -1,0 +1,424 @@
+/* All pages */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: blanchedalmond !important;
+  justify-content: center;
+}
+
+.logo {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 {
+  color: black;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.header nav ul {
+  list-style-type: none;
+  color: black;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color: black;
+}
+
+.footer {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+
+#btn {
+  color: blanchedalmond;
+}
+
+/* home page styling */
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-image: url("./banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+}
+
+/* About page styling */
+
+.aboutus {
+  display: inline-block;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about {
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 50px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: teal;
+  text-align: center;
+}
+
+.aboutInfo {
+  display: inline-block;
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 30px;
+  min-height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.aboutInfo img {
+  max-height: 200px;
+}
+
+.content {
+  width: 60%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.sexual-harassment {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  color: blanchedalmond;
+}
+
+.sexual-harassment img {
+  max-height: 200px;
+}
+
+.sexual-harassment h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.sidebar {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  clear: both;
+  float: right;
+  width: 25%;
+  min-height: 940px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+}
+
+.myths-facts {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: blanchedalmond;
+}
+
+.Sexual-Violence-Media {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: blanchedalmond;
+}
+
+.myths-facts h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Sexual-Violence-Media h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.myths-facts img {
+  display: block;
+  margin: 20px auto;
+  max-width: 150px;
+}
+
+.Sexual-Violence-Media img {
+  display: block;
+  margin: 20px auto;
+  max-width: 150px;
+}
+
+.male {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  color: blanchedalmond;
+}
+
+.rape-culture {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  color: blanchedalmond;
+}
+
+.male img {
+  max-height: 200px;
+}
+
+.rape-culture img {
+  max-height: 200px;
+}
+
+.male h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.rape-culture h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* Reporting page styling */
+
+.natinalhotline {
+  display: inline-block;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: blanchedalmond;
+}
+
+.hotline {
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 50px;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: teal;
+  text-align: center;
+}
+
+.container {
+  background-color: blanchedalmond;
+}
+
+.rainn {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+.rainn img {
+  max-height: 200px;
+}
+
+.rainn h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.options img {
+  max-height: 200px;
+}
+
+.options h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.options {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-top: 30px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+.form {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 300px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  color: blanchedalmond;
+}
+
+.form img {
+  max-height: 200px;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.rights {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 300px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  color: blanchedalmond;
+}
+
+.rights img {
+  max-height: 200px;
+}
+
+.rights h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* Relationship page styling */
+
+.information {
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 30px;
+  min-height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.information img {
+  max-height: 200px;
+}
+
+.video {
+  align-self: center;
+  /* display: inline-block; */
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 35%; */
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 30px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.survey {
+  margin-top: 100px;
+  margin-right: 10px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-size: 40px; */
+}
+
+#homevideo {
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 10px;
+  min-height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#aboutcontact {
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 40px;
+  min-height: 250px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond; 
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
