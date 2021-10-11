@@ -368,6 +368,32 @@ body {
   margin-bottom: 20px;
 }
 
+.informationex {
+  margin-right: auto;
+  padding: 20px;
+  padding-top: 30px;
+  min-height: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: teal;
+  font-size: 20px;
+  color: blanchedalmond;
+  justify-content: center;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: 300px;
+}
+
+a.informationex:hover {
+  color: #ffcc00;
+  font-family: monospace;
+}
+
+/* a.informationex:hover {
+  text-decoration: underline;
+  color: #2e2b2d;
+  font-weight: normal;
+} */
+
 .information img {
   max-height: 200px;
 }
