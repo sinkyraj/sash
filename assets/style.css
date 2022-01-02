@@ -369,7 +369,7 @@ body {
 }
 
 .informationex {
-  margin-right: auto;
+  /* margin-right: auto; */
   padding: 20px;
   padding-top: 30px;
   min-height: 200px;
@@ -378,9 +378,11 @@ body {
   font-size: 20px;
   color: blanchedalmond;
   justify-content: center;
-  margin-bottom: 20px;
-  max-width: 700px;
-  margin-left: 270px;
+  justify-items: center;
+  /* margin-bottom: 20px; */
+  /* max-width: 700px; */
+  /* margin-left: 270px; */
+  max-width: 50%;
 }
 
 a.informationex:hover {
